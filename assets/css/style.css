@@ -135,6 +135,7 @@ nav {
 .box-work {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   margin-top: 40px;
 }
 
@@ -168,4 +169,29 @@ nav {
 
 .box-recently {
   padding-right: 40px;
+  margin-bottom: 40px;
+}
+
+.slidebox {
+  display: flex;
+  overflow: scroll;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.slidebox img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.slidebox div p {
+  padding-top: 20px;
+}
+
+.slidebox-arrow {
+  margin-top: 40px;
+}
+
+.slidebox-arrow > i:first-child {
+  margin-right: 20px;
 }
