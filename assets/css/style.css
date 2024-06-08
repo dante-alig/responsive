@@ -1,0 +1,171 @@
+/* COMMON RULES ------------------*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Open Sans;
+  max-width: 100%;
+}
+
+section {
+  margin-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: gray solid 1px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  color: black;
+}
+
+/* HEADER ------------------------*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  border-bottom: gray solid 1px;
+}
+
+/* SECTION intro ------------------------*/
+.intro {
+  padding-top: 99px;
+}
+
+.box-intro {
+  padding-right: 50px;
+  margin-bottom: 30px;
+}
+
+.intro img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.title {
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.subtitle {
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.caption {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.caption p {
+  width: 50%;
+}
+
+.caption i {
+  margin-top: 16px;
+}
+
+/* SECTION ABOUT  ------------------------*/
+
+.about h3 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.about p {
+  margin-bottom: 40px;
+  padding-right: 30px;
+}
+
+/* SECTION WORK  ------------------------*/
+
+.work img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.work h2 {
+  margin-bottom: 40px;
+}
+
+.caption-title {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.caption-subtitle {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.box-work {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.box-work div:last-child {
+  display: flex;
+  gap: 20px;
+}
+
+/* SECTION RECOGNITION  ------------------------*/
+
+.recognition img {
+  height: 50px;
+  object-fit: cover;
+  display: block;
+}
+
+.recognition p {
+  margin-top: 0px;
+  display: inline;
+}
+
+.recognition i {
+  display: inline;
+}
+
+.recognition div {
+  margin-bottom: 30px;
+}
+
+/* SECTION RECENTLY  ------------------------*/
+
+.box-recently {
+  padding-right: 40px;
+}
